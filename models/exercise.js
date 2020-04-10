@@ -10,7 +10,7 @@ const exerciseSchema = new Schema({
         type: String,
         required: true
     },
-    reps: {
+    weight: {
         type: Number,
         required: true
     },
@@ -18,11 +18,11 @@ const exerciseSchema = new Schema({
         type: Number,
         required: true
     },
-    duration: {
+    reps: {
         type: Number,
         required: true
     },
-    weight: {
+    duration: {
         type: Number,
         required: true
     },

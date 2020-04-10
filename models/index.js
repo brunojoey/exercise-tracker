@@ -1,5 +1,5 @@
-const Exercise = require("./exercise");
-const Workout = require("./workout")
+const Exercise = require("./Exercise");
+const Workout = require("./Workout")
 
 module.exports = {
   Exercise,

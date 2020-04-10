@@ -39,7 +39,7 @@ router.post("/api/workouts", ({ body }, res) => {
     })
 });
 
-router.get("/api/workouts/:range", (req, res) => {
+router.get("/api/workouts/:range", ({ params }, res) => {
     db.workouts.find({}, (err, data) => {   
         if (err) {
             console.log(err) ;
