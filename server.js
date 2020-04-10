@@ -21,7 +21,7 @@ const htmlRoutes = require("./routes/htmlroutes");
 app.use(htmlRoutes);
 
 // Connects to Mongoose
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true }, { useUnifiedTopology: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
 // App listens to PORT that is called on line 4
 app.listen(PORT, () => {

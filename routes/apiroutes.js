@@ -8,7 +8,7 @@ const collection = ['workouts'];
 const db = mongojs(databaseURL, collection);
 
 router.get("/api/workouts", (req, res) => {
-    db.workouts.find({ }, (err, data) => {
+    db.workouts.find({}, (err, data) => {
         if (err) {
             console.log(err);
         } else {
