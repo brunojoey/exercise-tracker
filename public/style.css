@@ -213,7 +213,6 @@ form::after {
 
 button {
   display: block;
-  border: none;
   cursor: pointer;
   font-size: 1rem;
   border-radius: 6px;
