@@ -92,7 +92,7 @@ input {
   border: 1px solid #aaa;
   width: 100%;
   padding: 10px;
-  background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  background: linear-gradient(to bottom, #fff 0%, #e5e5e5 100%);
 }
 
 .wrapper {
