@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const exerciseSchema = require('./Exercise');
 
@@ -20,5 +20,5 @@ workoutSchema.virtual('totalDuration').get(function() {
     return totalDuration;
   });
   
-const Workout = mongoose.model("Workouts", workoutSchema);
+const Workout = mongoose.model('Workouts', workoutSchema);
 module.exports = Workout;
